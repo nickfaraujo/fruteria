@@ -1,0 +1,42 @@
+#intro {
+	background: url(images/intro.jpg) center center;
+	background-size: cover;
+}
+#intro .navbar .navbar-brand {
+	font-weight: bold;
+	color: #FF8E1E;
+}
+#intro .navbar .navbar-item {
+	color: #999;
+	transition: all 0.3s ease;
+	text-decoration: none;
+}
+#intro .navbar .navbar-item:hover {
+	color: #FF8E1E;
+}
+#intro .navbar .navbar-item.active {
+	color: #fff;
+}
+#intro h1 {
+	font-weight: bold;
+	font-size: 3rem;
+	color: #fff;
+	text-shadow: #333 1px 1px 1px;
+}
+img.thumb {
+	transition: filter 0.3s ease;
+}
+img.thumb:hover {
+	filter: grayscale(50%);
+}
+#footer {
+	background: #333;
+	color: #ccc;
+}
+#footer a {
+	color: #777;
+	transition: color 0.3s ease;
+}
+#footer a:hover {
+	color: #ccc;
+}
