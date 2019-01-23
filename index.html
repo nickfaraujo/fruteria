@@ -4,23 +4,25 @@
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="src/styles.css">
 	<title>Fruteria Po&ccedil;os de Caldas</title>
 </head>
 <body>
 	<div class="container-fluid" id="intro">
-		<div class="row vh-100">
+		<div class="row">
 			<div class="col-12 col-md-10 col-lg-8 mx-auto">
-				<nav class="navbar">
-					<a class="navbar-brand mr-auto" href="#">Fruteria</a>
-					<a class="navbar-item p-2 mx-md-2 active" href="#">Início</a>
-					<a class="navbar-item p-2 mx-md-2" href="#">A Empresa</a>
-					<a class="navbar-item p-2 mx-md-2" href="#">Contato</a>
+				<nav class="navbar d-flex flex-column flex-md-row align-items-center">
+					<a class="navbar-brand mr-0 mr-md-auto" href="#">Fruteria</a>
+					<div class="navbar-items">
+						<a class="navbar-item p-2 mx-md-2 active" href="#">Início</a>
+						<a class="navbar-item p-2 mx-md-2" href="#">A Empresa</a>
+						<a class="navbar-item p-2 mx-md-2" href="#">Contato</a>
+					</div>
 				</nav>
 			</div>
 			<div class="col-12 text-center align-self-center">
 				<h1>Todo mundo gosta da fruta.<br><br>Agora levamos at&eacute; voc&ecirc;!<br><br></h1>
-				<button class="btn btn-primary">Fa&ccedil;a um pedido</button>
+				<a href="#pedido" class="btn btn-primary" role="button">Fa&ccedil;a um pedido</a>
 			</div>
 			<div class="col-12 text-center align-self-end">
 				<a href="#maisinfo" class="text-light text-decoration-none d-inline-block my-3">Saiba mais<br>v</a>
@@ -34,49 +36,51 @@
 				<p>Nossos produtos são escolhidos dos melhores produtores da região, garantindo assim frutas deliciosas de sabor incomparável.</p>
 			</div>
 		</div>
-		<div class="row text-center mb-5">
+		<div id="gallery-fruits" class="row text-center mb-5">
 			<div class="col-6 col-lg-4 mx-auto">
-				<a href="#"><img src="images/gallery1-thumbnail.jpeg" class="img-fluid mb-4 thumb"></a>
+				<img src="images/fruit0-thumbnail.jpeg" class="img-fluid mb-4 gallery-thumbnail" alt="Pineapple">
 			</div>
 			<div class="col-6 col-lg-4 mx-auto">
-				<a href="#"><img src="images/gallery2-thumbnail.jpeg" class="img-fluid mb-4 thumb"></a>
+				<img src="images/fruit1-thumbnail.jpeg" class="img-fluid mb-4 gallery-thumbnail" alt="Blueberries">
 			</div>
 			<div class="col-6 col-lg-4 mx-auto">
-				<a href="#"><img src="images/gallery3-thumbnail.jpeg" class="img-fluid mb-4 thumb"></a>
+				<img src="images/fruit2-thumbnail.jpeg" class="img-fluid mb-4 gallery-thumbnail" alt="Apples">
 			</div>
 			<div class="col-6 col-lg-4 mx-auto">
-				<a href="#"><img src="images/gallery4-thumbnail.jpeg" class="img-fluid mb-4 thumb"></a>
+				<img src="images/fruit3-thumbnail.jpeg" class="img-fluid mb-4 gallery-thumbnail" alt="Banana trees">
 			</div>
 			<div class="col-6 col-lg-4 mx-auto">
-				<a href="#"><img src="images/gallery5-thumbnail.jpeg" class="img-fluid mb-4 thumb"></a>
+				<img src="images/fruit4-thumbnail.jpeg" class="img-fluid mb-4 gallery-thumbnail" alt="Strawberry fruit salad">
 			</div>
 			<div class="col-6 col-lg-4 mx-auto">
-				<a href="#"><img src="images/gallery6-thumbnail.jpeg" class="img-fluid mb-4 thumb"></a>
+				<img src="images/fruit5-thumbnail.jpeg" class="img-fluid mb-4 gallery-thumbnail" alt="Oranges in a basket">
 			</div>
 			<div class="col-6 col-lg-4 mx-auto">
-				<a href="#"><img src="images/gallery7-thumbnail.jpeg" class="img-fluid mb-4 thumb"></a>
+				<img src="images/fruit6-thumbnail.jpeg" class="img-fluid mb-4 gallery-thumbnail" alt="Many many fruits">
 			</div>
 			<div class="col-6 col-lg-4 mx-auto">
-				<a href="#"><img src="images/gallery8-thumbnail.jpeg" class="img-fluid mb-4 thumb"></a>
+				<img src="images/fruit7-thumbnail.jpeg" class="img-fluid mb-4 gallery-thumbnail" alt="Grape trees">
 			</div>
 			<div class="col-6 col-lg-4 mx-auto">
-				<a href="#"><img src="images/gallery9-thumbnail.jpeg" class="img-fluid mb-4 thumb"></a>
+				<img src="images/fruit8-thumbnail.jpeg" class="img-fluid mb-4 gallery-thumbnail" alt="Sliced watermelon">
 			</div>
 		</div> 
-		<div class="row mb-5">
+		<div class="row">
 			<div class="col-12">
 				<h1 class="font-weight-bold text-center">Movimento Eco-Friendly</h1>
 				<p>Na Fruteria, temos uma grande paixão pela vida, e consequentemente viver-lá sempre com saúde. Acreditamos que um dos papéis fundamentais da sociedade é cuidar do meio ambiente. Sempre contribuímos com a conscientização social da importância da preservação da natureza.</p>
 				<p>Apartir de 2019, a Fruteria agora disponibiliza todos nosso produtos à entrega. Na area central contamos com bicicletas tradicionais e para distâncias maiores novos bicicletas elétricas. A nossa frota de e-bikes conta com tecnologia de ponta oferecendo um equilíbro de economia, agilidade e mínimo impacto sobre o meio ambiente.</p>
 			</div>
-			<div class="col-6 col-lg-4 mb-4 mx-auto">
-				<a href="#"><img src="images/gallery10-thumbnail.jpeg" class="img-fluid thumb"></a>
+		</div>
+		<div id="gallery-bikes" class="row mb-5">
+			<div class="col-6 col-lg-4 mx-auto">
+				<img src="images/bike0-thumbnail.jpeg" class="img-fluid mb-4 gallery-thumbnail">
 			</div>
-			<div class="col-6 col-lg-4 mb-4 mx-auto">
-				<a href="#"><img src="images/gallery11-thumbnail.jpeg" class="img-fluid thumb"></a>
+			<div class="col-6 col-lg-4 mx-auto">
+				<img src="images/bike1-thumbnail.jpeg" class="img-fluid mb-4 gallery-thumbnail">
 			</div>
-			<div class="col-6 col-lg-4 mb-4 mx-auto">
-				<a href="#"><img src="images/gallery12-thumbnail.jpeg" class="img-fluid thumb"></a>
+			<div class="col-6 col-lg-4 mx-auto">
+				<img src="images/bike2-thumbnail.jpeg" class="img-fluid mb-4 gallery-thumbnail">
 			</div>
 		</div>
 		<div id="pedido" class="row mb-5">
@@ -99,5 +103,15 @@
 			</div>
 		</div>
 	</div>
+	<div id="gallery-modal" class="d-none">
+		<div id="gallery-modal-content" class="d-flex flex-column justify-content-center align-items-center">
+			<button type="button" class="close" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			</button>
+			<img class="img-fluid">
+			<p class="py-2"></p>
+		</div>
+	</div>
+	<script type="text/javascript" src="src/scripts.js"></script>
 </body>
 </html>
