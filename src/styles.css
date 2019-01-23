@@ -85,7 +85,7 @@ img.gallery-thumbnail:hover {
 
 @media only screen and (max-width: 720px){
 	#intro .row {
-		height: 100vh;
+		height: 90vh;
 	}
 	#intro h1 {
 		font-size: 2rem;
